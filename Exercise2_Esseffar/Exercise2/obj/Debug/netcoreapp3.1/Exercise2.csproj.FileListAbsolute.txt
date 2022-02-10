@@ -1,0 +1,14 @@
+C:\Users\rayan\Desktop\S9\Trading\TP\Esseffar_Sophia_TP6_ST2TRD\Exercise2\Exercise2\bin\Debug\netcoreapp3.1\Exercise2.exe
+C:\Users\rayan\Desktop\S9\Trading\TP\Esseffar_Sophia_TP6_ST2TRD\Exercise2\Exercise2\bin\Debug\netcoreapp3.1\Exercise2.deps.json
+C:\Users\rayan\Desktop\S9\Trading\TP\Esseffar_Sophia_TP6_ST2TRD\Exercise2\Exercise2\bin\Debug\netcoreapp3.1\Exercise2.runtimeconfig.json
+C:\Users\rayan\Desktop\S9\Trading\TP\Esseffar_Sophia_TP6_ST2TRD\Exercise2\Exercise2\bin\Debug\netcoreapp3.1\Exercise2.runtimeconfig.dev.json
+C:\Users\rayan\Desktop\S9\Trading\TP\Esseffar_Sophia_TP6_ST2TRD\Exercise2\Exercise2\bin\Debug\netcoreapp3.1\Exercise2.dll
+C:\Users\rayan\Desktop\S9\Trading\TP\Esseffar_Sophia_TP6_ST2TRD\Exercise2\Exercise2\bin\Debug\netcoreapp3.1\Exercise2.pdb
+C:\Users\rayan\Desktop\S9\Trading\TP\Esseffar_Sophia_TP6_ST2TRD\Exercise2\Exercise2\obj\Debug\netcoreapp3.1\Exercise2.csproj.AssemblyReference.cache
+C:\Users\rayan\Desktop\S9\Trading\TP\Esseffar_Sophia_TP6_ST2TRD\Exercise2\Exercise2\obj\Debug\netcoreapp3.1\Exercise2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rayan\Desktop\S9\Trading\TP\Esseffar_Sophia_TP6_ST2TRD\Exercise2\Exercise2\obj\Debug\netcoreapp3.1\Exercise2.AssemblyInfoInputs.cache
+C:\Users\rayan\Desktop\S9\Trading\TP\Esseffar_Sophia_TP6_ST2TRD\Exercise2\Exercise2\obj\Debug\netcoreapp3.1\Exercise2.AssemblyInfo.cs
+C:\Users\rayan\Desktop\S9\Trading\TP\Esseffar_Sophia_TP6_ST2TRD\Exercise2\Exercise2\obj\Debug\netcoreapp3.1\Exercise2.csproj.CoreCompileInputs.cache
+C:\Users\rayan\Desktop\S9\Trading\TP\Esseffar_Sophia_TP6_ST2TRD\Exercise2\Exercise2\obj\Debug\netcoreapp3.1\Exercise2.dll
+C:\Users\rayan\Desktop\S9\Trading\TP\Esseffar_Sophia_TP6_ST2TRD\Exercise2\Exercise2\obj\Debug\netcoreapp3.1\Exercise2.pdb
+C:\Users\rayan\Desktop\S9\Trading\TP\Esseffar_Sophia_TP6_ST2TRD\Exercise2\Exercise2\obj\Debug\netcoreapp3.1\Exercise2.genruntimeconfig.cache

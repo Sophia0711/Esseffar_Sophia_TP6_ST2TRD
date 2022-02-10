@@ -1,0 +1,101 @@
+TP6
+Es-seffar Sophia 
+20190028
+-----------------------------------------------------------------------------------
+Exercise 1
+-----------------------------------------------------------------------------------
+
+1.
+
+Clean Code is a simple and well organized code structure. It means : clear for any
+programmers, simple functions that implements one task, no redundancy and minimum
+number of classes.
+Refactoring is it is a set of rules of good practice that must be followed to have
+a clean code.
+
+2..................................
+
+It is possible to "over-refactor" by creating too much functions for example.
+the goal is to split the tasks as much as possible in order to have a readable and 
+understandable code quickly. But if you create too many classes or functions, you 
+gain in readability but you end up losing in comprehension. 
+
+3..................................
+
+A code smell is a bad practice that need to be avoided to produce clean code.
+For example, Long Parameter List is a code smell. It is not readable to have a huge
+list of parameters for a method. In order to avoid that, we can call an object 
+instead or another method call.
+
+4..................................
+
+In GuildedRose there was several code smells :
+-Long Method (the UpdateQuality() method is very long and very redundant)
+-lazy Class (GildedRose class has only a one methode and one list)
+-Data Class (Item class has only attributes, it only stores data)
+
+5..................................
+
+GuildedRose refactoring techniques:
+-Encapsulate fields (Items attributes are public and need to be set as private with
+getter and setter method)
+-Subclasses 
+-Extract Method (the UpdateQuality() method can be divided in several other 
+methods)
+-Replace conditional with polymorphism (instead of the lots of if/else, we override
+the methods of subclasses)
+
+
+-----------------------------------------------------------------------------------
+Exercise 2
+-----------------------------------------------------------------------------------
+
+1.
+
+A pattern is like a model to replicate in order to resolve a common problem.
+Depending on the problem or the criterias you have to implements, you have to 
+choose the right pattern and always adapt it to your problem. It is not an 
+algorithm that you copy and paste, it is more a guideline of how to implement 
+your solution with the right architecture.
+You should use one when you identify the right pattern and 
+You souldn't use one when you don't understand it or when you overuse it.
+
+2................................
+
+Done on Visual Studio.
+
+3................................
+
+Let's imagine we are a automobile brand "See Sharp". We have threw different models :
+City ($15000), SUV($30000) and Berline($25000). Each model has a name and a price but each model can also be
+sold in different versions : Hybrid, Comfort or Sport Line which change the price and 
+also the name of the model.
+
+The first abstract class would be : Car. It contains string name and int price with
+getprice and get name methods.
+
+Then three model classes inherits from Car and sets each name and price in the
+constructor. Decorator abstract class also inherits from Car. The decorator class
+override the methods getname (concatenate the name model and the name of the line)
+and getprice (sum the car model price and the finition price).
+
+The three models : City, Berline and SUV are three classes that inherits from Decorator 
+abstract class. In each constructor, it sets the name with "Hybrid Line", "Comfort
+Line" or "Sport Line" and the price at 7000, 5000 and 12000 respectively.
+
+In the main program, we create the following objects and call the ToString method : 
+City Car1 = new City();
+Hybrid Car2 = new Hybrid(SUV);
+Sport Car3 = new Sport(Berline);
+Comfort Car4 = new Comfort(City);
+
+The console should output : 
+City : 15000
+SUV Hybrid Line : $37000
+Berline Sport Line : $37000
+City Comfort Line : $20000
+						
+4..............................
+
+Template Design Pattern
+Done on Visual Studio

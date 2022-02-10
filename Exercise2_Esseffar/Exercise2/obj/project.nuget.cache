@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "q0pbaWKdNr/8c0dGyvqrrQeSYM8Vrd0AImFDjZGdhV37iP+bRUy2kedpPsh9SGkNb5GjjTUp0Diw0RDUW73JZA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rayan\\Desktop\\S9\\Trading\\TP\\Esseffar_Sophia_TP6_ST2TRD\\Exercise2\\Exercise2\\Exercise2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rayan\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
+  ],
+  "logs": []
+}
